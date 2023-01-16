@@ -67,3 +67,5 @@ null
 var pickedColor=null;
 console.log(pickedColor);//null
 console.log(typeof(pickedColor));//"object"
+
+document.write("hello")
