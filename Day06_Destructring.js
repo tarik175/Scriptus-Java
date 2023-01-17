@@ -60,6 +60,10 @@ var [userName,userLocation,userEmail]=user2
 console.log(userName)
 console.log(userLocation)
 console.log(userEmail)
+var [userName,userLocation,userEmail]=user2
+console.log(userName)
+console.log(userLocation)
+console.log(userEmail)
 
 
 
