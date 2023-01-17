@@ -60,10 +60,15 @@ var [userName,userLocation,userEmail]=user2
 console.log(userName)
 console.log(userLocation)
 console.log(userEmail)
-var [userName,userLocation,userEmail]=user2
-console.log(userName)
-console.log(userLocation)
-console.log(userEmail)
+// nested array elements
+const arrValue = ['one', ['two', 'three']];
+
+// nested destructuring assignment in arrays
+const [x, [y, z]] = arrValue;
+
+console.log(x); // one
+console.log(y); // two
+console.log(z); // three
 
 
 
